@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Material Design Lite</title>
+    <link rel="stylesheet" href="css/material.css"/>
+    <script src="js/material.js"></script>
+</head>
+<body>
+
+<!-- No header, and the drawer stays open on larger screens (fixed drawer). -->
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+            <!-- Title -->
+            <span class="mdl-layout-title">Fotografia e Memoria</span>
+            <!-- Add spacer, to align navigation to the right -->
+            <div class="mdl-layout-spacer"></div>
+            <!-- Navigation. We hide it in small screens. -->
+            <nav class="mdl-navigation mdl-layout--large-screen-only">
+                <a class="mdl-navigation__link" href="">Paisagens</a>
+                <a class="mdl-navigation__link" href="">Eventos</a>
+                <a class="mdl-navigation__link" href="">Pessoas</a>
+                <a class="mdl-navigation__link" href="">Monumentos</a>
+            </nav>
+        </div>
+    </header>
+    <main class="mdl-layout__content">
+        <div class="page-content">
+            <div class="mdl-grid">
+                <div class="mdl-grid">
+                    <div class="mdl-grid">
+                        <div class="mdl-cell mdl-cell--1-col">
+                            <a href="foto.html">
+                                <div><img src="img/foto1.jpg" width="100px"></div>
+                            </a>
+                        </div>
+                        <div class="mdl-cell mdl-cell--4-col">4</div>
+                        <div class="mdl-cell mdl-cell--4-col">4</div>
+                        <div class="mdl-cell mdl-cell--1-col">4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+</body>
+</html>
